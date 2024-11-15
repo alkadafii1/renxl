@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Transaction extends Model
 {
     protected $table = 'transactions';
-    protected $fillable = ['transaction_date', 'transaction_amount,transaction_comment'];
+    protected $fillable = ['transaction_date', 'transaction_amount', 'transaction_comment'];
     public $timestamps = false;
 
     public function customer()
