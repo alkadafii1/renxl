@@ -17,7 +17,7 @@ class Rental extends Model
 
     public function movie()
     {
-        return $this->belongsTO(Movie::class, 'movie_id');
+        return $this->belongsTo(Movie::class, 'movie_id');
     }
     public function rental()
     {
